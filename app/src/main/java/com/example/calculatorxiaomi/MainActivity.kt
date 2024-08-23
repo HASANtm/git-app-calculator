@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
 
         }
         binding.btnParantezBaz.setOnClickListener {
-            appendText("(")
+            appendText("(.")
         }
         binding.btnParantezBaste.setOnClickListener {
             appendText(")")
